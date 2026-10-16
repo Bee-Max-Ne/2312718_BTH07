@@ -1,0 +1,9 @@
+$ python -m coverage run -m unittest discover -s . -p 'test_*.py'
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\python.exe: No module named coverage
+Coverage run could not execute in this environment; running unittest directly to record test results.
+$ python -m unittest discover -s . -p 'test_*.py'
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 0.010s
+
+OK
